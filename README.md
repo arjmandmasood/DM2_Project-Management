@@ -1,6 +1,6 @@
 # DM2_Project-Management
 
-**Project Title:** D.I.Y PC
+**Project Title:** D.I.Y PC <br>
 **Lecturer name:** Joseph Corr
 **Team Name:** Source Code
 **Team Members Name and ID:**
