@@ -14,4 +14,4 @@ This application would aim to try and help people understand and know how to rep
 **Objectives** <br>
 • Try to help people understand the inner workings of their PC <br>
 • Describe the process of maintaining their PC <br>
-• Help diagnose issues and potential future problems <br>
+• Help diagnose issues and potential future problems
