@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    
+	<title>PC.I.Y</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--	 Stylesheet -->
+	<script src="https://kit.fontawesome.com/9fee83fe28.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
 
     <!-- Bootstrap CSS -->
@@ -32,13 +35,10 @@
 				  <a class="nav-link" href="index.html">Home</a>
 				</li>				
 				<li class="nav-item">
-				  <a class="nav-link active" aria-current="page" href="#">PC Basics</a>
+				  <a class="nav-link active" aria-current="page" href="#">Basic Repairs</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="pcbasics2.html">PC Basics 2</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="commonproblem.html">Common Problems</a>
+				  <a class="nav-link" href="commonproblem.html">Advanced Repairs</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="contact.html">Contact Us</a>
@@ -55,19 +55,85 @@
 	<!--*******************************************************************************
 	                                Page content hare
 	*******************************************************************************-->
-    	<section>
-	 		<div class="container">
-				<div class="row">
-					<div class="col-lg-2 col-md-2"></div>
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-					
-					</div>
-					<div class="col-lg-2 col-md-2"></div>
-				</div>	  
-	  		</div>
-		</section>	
+	
+	<br>
+  
+  <div class="container-fluid"> <!-- Start Main Content -->
 				
+					<div class="row" id="rowBG">	
+					
+						<div class="col-2"> <!-- Start of dust row -->
+						</div>
 
+						<div class="col-6" id="pageInfo"> 
+						<h5>Removing Dust?</h5>
+						<p>Go here to find more information about how to properly remove dust from the CPU. </p>
+						</div>
+						
+						<div class="col-2" id="pageOther">
+						<a href="dust.html">				
+						<button onclick="scrollWin()" id="thisButton" class="btn btn-info">See More!</button>
+						</a>
+						</div>					
+							
+					</div> <!-- End of dust Row -->
+					
+					<div class="row" id="rowBG"> <!-- Start of cpu fan Row -->	
+					
+					<div class="col-2"> 
+					</div>
+						
+					<div class="col-6" id="pageInfo"> 
+					<h5>Removing your CPU fan for cleaning</h5>
+					<p>Go here to find more information about removing your CPU fan to clean it.</p>
+					</div>
+							
+					<div class="col-2" id="pageOther">
+					<a href="fan.html">				
+					<button onclick="scrollWin()" id="thisButton" class="btn btn-info">See More!</button>
+					</a>
+					</div>					
+							
+					</div> <!-- End of cpu fan Row -->
+					
+					<div class="row" id="rowBG"> <!-- Start of cleaning thermal paste Row -->		
+					
+					<div class="col-2"> 
+					</div>
+						
+					<div class="col-6" id="pageInfo"> 
+					<h5>Clean old Thermal Paste</h5>
+					<p>Go here to find more information about cleaning old thermal paste. </p>
+					</div>
+							
+					<div class="col-2" id="pageOther">
+					<a href="thermalpaste1.html">				
+					<button onclick="scrollWin()" id="thisButton" class="btn btn-info">See More!</button>
+					</a>
+					</div>					
+							
+					</div> <!-- End of cleaning thermal paste Row -->	
+					
+					<div class="row" id="rowBG"> <!-- Start of thermal paste Row -->	
+					
+						<div class="col-2"> 
+						</div>
+						
+						<div class="col-6" id="pageInfo"> 
+						<h5>Reapply Thermal Paste</h5>
+						<p>Go here to find more information about reapplying thermal paste.</p>
+						</div>
+						
+						<div class="col-2" id="pageOther">
+						<a href="thermalpaste2.html">				
+						<button onclick="scrollWin()" id="thisButton" class="btn btn-info">See More!</button>
+						</a>
+						</div>					
+							
+					</div> <!-- End of thermal paste Row -->		
+				</div> <!-- End Main Content -->		
+				
+				<br>
 	
   	<!--*******************************************************************************
 	                                Footer hare
@@ -85,8 +151,8 @@
 							<div class="footer-links">
 								<p><a href="index.html">Home</a></p>
 								<p><a href="contact.html">Contact Us</a></p>
-								<p><a href="pcbasics.html">PC Basics</a></p>
-								<p><a href="pcbasics2.html">PC Basics 2</a></p>
+								<p><a href="pcbasics.html">Basic Repairs</a></p>
+								<p><a href="pcbasics2.html">Advanced Repairs</a></p>
 								<p><a href="commonproblem.html">Common Problems</a></p>								
 							</div>				
 						  </div>
