@@ -1,0 +1,221 @@
+ 
+ body{
+/*
+	background: rgb(255,255,255);
+	background: linear-gradient(rgba(255,255,255) 0%, rgba(255,255,255,1) 100%);
+	min-width:700px;
+*/
+ 	/*filter:blur(10px);*/
+ }
+ 
+/************************************************************************
+         			 	 Navbar
+*************************************************************************/
+nav{
+	background-color: #0994E1;
+	color: white;
+}
+.nav-link{
+	color: white;
+}
+
+/************************************************************************
+         			 	 index page content
+*************************************************************************/
+.index-page h1{
+	text-align: center;
+}
+.index-page p{
+	margin-top: 2%;
+}
+@media (max-width: 501px) {
+	.index-page img{
+		width: 300px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+/*
+@media (max-width: 770px) {
+	.index-page img{
+		width: 400px;
+		height: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+*/
+@media (min-width: 1024px) {
+	
+	.index-page img{
+		width: 550px;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/************************************************************************
+         			 	 Contact page content
+*************************************************************************/
+.contact-page textarea{
+	height: 150px;
+}
+
+.contact-page input[type=text], textarea {
+  width: 100%; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin: 2px 0px 12px 0px; 
+  resize: vertical; 
+}
+/*input[type=submit]*/
+.contact-page .btn {
+  background-color: #0994E0;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0px 30px 0px;
+	
+}
+.contact-page .btn:hover {
+  background-color: white;
+  color: #0994E0;
+  border: 1px solid #0994E0;
+  
+}
+
+/*
+.input-group{
+	float: right;
+  	margin-left: 100px;  
+}
+*/
+
+/************************************************************************
+         			 	 Footer
+*************************************************************************/
+footer{
+	background-color: #0994E1;
+	color: white;
+	margin-top: 10px;
+}
+footer h4{
+	margin: 15px 0px 10px 0px;
+}
+.footer-icons img{
+	float: left;
+    width: 25px;
+    height: 25px;
+	margin-right: 10px;
+	
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: white;
+}
+.footer-bottom{
+	text-align: center;
+}
+@media (max-width: 501px) {
+     footer a{
+         font-size: 0.8rem;
+        }
+	footer p{
+		font-size: 0.75rem
+	}
+	footer h4{
+		font-size: 1.1rem;
+	}
+}
+@media (max-width: 350px) {
+     footer a{
+         font-size: 0.68rem;
+        }
+	footer p{
+		font-size: 0.68rem
+	}
+	footer h4{
+		font-size: 1rem;
+	}
+}
+
+#pageTitles{
+	background-color:#e8f4fc;" 	
+	height:50px;
+	border-bottom: 5px black solid;
+}
+
+#pageTitles h2{
+	color: black;
+	margin-left:20px;
+}
+
+#titleBar{
+	text-align:center;
+	background-color:#FF7F00;
+}
+
+#titleBar2{
+	background-color:#d7d7d7;
+}
+
+#titleBar h2{
+	font-family:Helvetica;
+	color:white;
+	margin-top:2px;
+}	
+
+#pageImages{
+	height:150px;
+	width:100%;
+	margin-top:10px;
+	padding-bottom:10px;
+	margin-left:2%;
+	padding-right:2px;
+}
+
+#pageInfo{
+	margin-top:20px;
+	height:100px;
+	
+}
+
+#pageOther{
+	margin-top:53px;
+}
+
+#rowBG{
+	background-color:#e8f4fc;
+	margin-top:20px;
+}
+
+#thisButton{
+	font-weight:bold;
+	color:black;
+	background-color:#31D1D6;
+}
+
+#basicsImages{
+	height:20%;
+	width:20%;
+	padding: 10px;
+	float: left;
+}
+
+.pcpower {
+width: 50%;
+}
+
+#cpuFan{
+	margin:20px;
+}
